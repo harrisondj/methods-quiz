@@ -52,19 +52,19 @@ describe 'Methods_quiz' do
 
   end
 
-  describe 'two_as_one?' do
-  	it 'c is possible' do
-      two_as_one?(1, 2, 3).must_equal(true)
-    end
-    it 'b is possible' do
-      two_as_one?(2, 5, 3).must_equal(true)
-    end
-    it 'a is possible' do
-      two_as_one?(8, 4, 4).must_equal(true)
-    end
-    it 'not possible' do
-      two_as_one?(1, 2, 4).must_equal(true)
-    end
+  # describe 'two_as_one?' do
+  # 	it 'c is possible' do
+  #     two_as_one?(1, 2, 3).must_equal(true)
+  #   end
+  #   it 'b is possible' do
+  #     two_as_one?(2, 5, 3).must_equal(true)
+  #   end
+  #   it 'a is possible' do
+  #     two_as_one?(8, 4, 4).must_equal(true)
+  #   end
+  #   it 'not possible' do
+  #     two_as_one?(1, 2, 4).must_equal(true)
+  #   end
 
-  end
+  # end
 end
